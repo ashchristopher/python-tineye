@@ -66,7 +66,7 @@ class TinEye(object):
 
 class TinEyePhoto(object):
     """
-    Object to represent a flickr photo.
+    Object to represent a photo.
     """
     def __init__(self, name, image_url, *args, **kwargs):
         super(TinEyePhoto, self).__init__(*args, **kwargs)
