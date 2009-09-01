@@ -1,0 +1,2 @@
+class InvalidImageError(Exception):
+    pass
