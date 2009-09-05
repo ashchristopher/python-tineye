@@ -30,8 +30,7 @@ a TinEye photo object. You create your images that you want searched and
 pass them to the TinEye search object.
 
 	from tineye import TinEye, TinEyePhoto
-	photo = TinEyePhoto(name='My Cool Photo', 
-'http://example.com/wicked_photo.jpg')
+	photo = TinEyePhoto(name='My Cool Photo', 'http://example.com/wicked_photo.jpg')
 
 	te = TinEye()
 	num_results, link = te.search(photo)
